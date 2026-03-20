@@ -4,6 +4,8 @@ import { Badge } from "@/components/ui/badge";
 import { ArrowRight } from "lucide-react";
 import { EXTERNAL_LINKS } from "@/lib/constants";
 
+const BRAZIL_FORM_LINK = "https://docs.google.com/forms/d/e/1FAIpQLSe4Y9ns_56-VDLB1znocWPLqGBHOIVBqsGWOYadswI3Q6xWsg/viewform?usp=send_form";
+
 const cities = [
   {
     city: "Lagos",
@@ -27,7 +29,7 @@ const cities = [
     flag: "🇧🇷",
     date: "Q2 2026",
     buttonText: "Register for São Paulo",
-    buttonLink: EXTERNAL_LINKS.APPLY,
+    buttonLink: BRAZIL_FORM_LINK,
   },
   {
     city: "Belo Horizonte",
@@ -35,7 +37,7 @@ const cities = [
     flag: "🇧🇷",
     date: "Q3 2026",
     buttonText: "Register for Belo Horizonte",
-    buttonLink: EXTERNAL_LINKS.APPLY,
+    buttonLink: BRAZIL_FORM_LINK,
   },
   {
     city: "Port Harcourt",
