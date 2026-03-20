@@ -15,14 +15,14 @@ const cities = [
     buttonText: "Register for Lagos",
     buttonLink: EXTERNAL_LINKS.APPLY,
   },
-  {
-    city: "Nairobi",
-    country: "Kenya",
-    flag: "🇰🇪",
-    date: "Q2 2026",
-    buttonText: "Register for Nairobi",
-    buttonLink: EXTERNAL_LINKS.APPLY,
-  },
+  // {
+  //   city: "Nairobi",
+  //   country: "Kenya",
+  //   flag: "🇰🇪",
+  //   date: "Q2 2026",
+  //   buttonText: "Register for Nairobi",
+  //   buttonLink: EXTERNAL_LINKS.APPLY,
+  // },
   {
     city: "São Paulo",
     country: "Brazil",
@@ -31,22 +31,22 @@ const cities = [
     buttonText: "Register for São Paulo",
     buttonLink: BRAZIL_FORM_LINK,
   },
-  {
-    city: "Belo Horizonte",
-    country: "Brazil",
-    flag: "🇧🇷",
-    date: "Q3 2026",
-    buttonText: "Register for Belo Horizonte",
-    buttonLink: BRAZIL_FORM_LINK,
-  },
-  {
-    city: "Port Harcourt",
-    country: "Nigeria",
-    flag: "🇳🇬",
-    date: "Q3 2026",
-    buttonText: "Register for Port Harcourt",
-    buttonLink: EXTERNAL_LINKS.APPLY,
-  },
+  // {
+  //   city: "Belo Horizonte",
+  //   country: "Brazil",
+  //   flag: "🇧🇷",
+  //   date: "Q3 2026",
+  //   buttonText: "Register for Belo Horizonte",
+  //   buttonLink: BRAZIL_FORM_LINK,
+  // },
+  // {
+  //   city: "Port Harcourt",
+  //   country: "Nigeria",
+  //   flag: "🇳🇬",
+  //   date: "Q3 2026",
+  //   buttonText: "Register for Port Harcourt",
+  //   buttonLink: EXTERNAL_LINKS.APPLY,
+  // },
 ];
 
 function Cities() {
