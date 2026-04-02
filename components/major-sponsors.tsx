@@ -18,9 +18,9 @@ function MajorSponsors({ className }: MajorSponsorsProps) {
             logoUrl="/partners/btrust.svg"
             logoAlt="Btrust"
             logoHref="https://btrust.tech"
-            quote="Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nesciunt iste distinctio corporis, alias illum."
-            personName="Laura Mipsum"
-            personTitle="Chief Operating Officer at Btrust"
+            quote="Hack4Freedom is doing valuable work creating an effective pipeline of female Bitcoin developers, which is a net positive for the entire Bitcoin open-source ecosystem. This is a core part of our priorities at Btrust, as we cannot have a truly decentralized effort without it, so we are proud to continue supporting them."
+            personName="Abubakar Nur Khalil"
+            personTitle="CEO, Btrust"
             className="border-b border-border"
           />
           <SponsorTestimonial
