@@ -27,9 +27,9 @@ function MajorSponsors({ className }: MajorSponsorsProps) {
             logoUrl="/partners/vinteum.png"
             logoAlt="Vinteum"
             logoHref="https://vinteum.org"
-            quote="Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nesciunt iste distinctio corporis, alias illum."
-            personName="Vinteum Person"
-            personTitle="Title at Vinteum"
+            quote="Expanding who gets to build Bitcoin isn't a social goal, it's a technical one. Today, that builder set is still extremely narrow. If Bitcoin is meant to be global, the people building it need to reflect more of the realities it serves. Hack4Freedom is about bringing more capable builders into the arena, and turning users into builders."
+            personName="Lucas Ferreira"
+            personTitle="Co-Founder & Executive Director, Vinteum"
           />
         </div>
       </div>
