@@ -32,9 +32,9 @@ export default async function Home() {
     <main id="main-content" className="min-h-screen">
       <Navbar />
       <Hero />
+      <Cities />
       <MajorSponsors />
       <Partners />
-      <Cities />
       <About />
       <Journey />
       <Prizes />
