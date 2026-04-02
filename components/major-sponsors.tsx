@@ -21,6 +21,7 @@ function MajorSponsors({ className }: MajorSponsorsProps) {
             quote="Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nesciunt iste distinctio corporis, alias illum."
             personName="Laura Mipsum"
             personTitle="Chief Operating Officer at Btrust"
+            className="border-b border-border"
           />
           <SponsorTestimonial
             logoUrl="/partners/vinteum.png"
