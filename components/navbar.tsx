@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowUpRight, Download, Menu } from "lucide-react";
+import { Download, Menu } from "lucide-react";
 import { useEffect, useState } from "react";
 
 import { Button } from "@/components/ui/button";
@@ -91,10 +91,9 @@ const Navbar = () => {
                     </Link>
                   </Button>
                 ))}
-                <Link href={EXTERNAL_LINKS.APPLY} target="_blank" rel="noopener noreferrer">
+                <Link href="#cities">
                   <Button variant={"link"} className="-mt-1 !ml-4">
                     Apply Now
-                    <ArrowUpRight className="h-4 w-4 ml-2" />
                   </Button>
                 </Link>
               </div>
