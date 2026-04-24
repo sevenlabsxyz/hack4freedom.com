@@ -1,10 +1,11 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, MapPin } from "lucide-react";
 import { EXTERNAL_LINKS } from "@/lib/constants";
 
 const BRAZIL_FORM_LINK = "https://docs.google.com/forms/d/e/1FAIpQLSe4Y9ns_56-VDLB1znocWPLqGBHOIVBqsGWOYadswI3Q6xWsg/viewform?usp=send_form";
+const CITY_REQUEST_FORM_LINK = "https://docs.google.com/forms/d/e/1FAIpQLSfJaZjvIERSdqiIDRt2EGe7leZ1hMfid7i0xFN3nZstWN4czA/viewform?usp=publish-editor";
 
 const cities = [
   {
@@ -66,17 +67,17 @@ function Cities() {
           South.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto place-items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto items-stretch">
           {cities.map((city, index) => (
             <a
               key={index}
               href={city.buttonLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="group block"
+              className="group block w-full h-full"
             >
-              <Card className="hover:border-primary rounded-3xl border-2 p-10 transition hover:-translate-y-3 bg-card relative">
-                <CardContent className="p-0 flex flex-col min-h-[180px]">
+              <Card className="hover:border-primary rounded-3xl border-2 p-10 transition hover:-translate-y-3 bg-card relative h-full">
+                <CardContent className="p-0 flex flex-col h-full">
                   <div className="">
                     <Badge variant="outline" className="mb-4 bg-pink-700">
                       {city.date}
@@ -101,6 +102,39 @@ function Cities() {
               </Card>
             </a>
           ))}
+
+          {/* CTA — Bring it to your city */}
+          <a
+            href={CITY_REQUEST_FORM_LINK}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group block w-full h-full"
+          >
+            <Card className="hover:border-brand-green rounded-3xl border-2 border-dashed p-10 transition hover:-translate-y-3 bg-card/50 relative h-full">
+              <CardContent className="p-0 flex flex-col h-full">
+                <div>
+                  <Badge variant="outline" className="mb-4 bg-pink-700/80">
+                    Next Up
+                  </Badge>
+                </div>
+
+                <div className="flex-1">
+                  <h3 className="text-2xl md:text-2xl font-mono font-bold text-white mb-6">
+                    <MapPin className="inline-block h-6 w-6 mr-2 -mt-1" />
+                    Your City?
+                  </h3>
+                </div>
+
+                <Button
+                  variant="outline"
+                  className="border-brand-green text-white font-mono group-hover:bg-brand-green/10 pointer-events-none mt-auto w-full"
+                >
+                  Request Your City
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </Button>
+              </CardContent>
+            </Card>
+          </a>
         </div>
       </div>
     </section>
